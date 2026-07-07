@@ -7,9 +7,7 @@ authors: "Jill S. Hasler<sup>†</sup>, **Chenyu Bi<sup>†</sup>**, Chang Li, R
 venue: "Under Review, 2026"
 
 description: >
-  We develop a two-stage statistical framework for integrating high-dimensional
-  electronic health record data with externally measured predictors to improve
-  clinical risk prediction.
+.
 
 paperurl: "/files/two-stage-risk-prediction.pdf"
 poster: ""
