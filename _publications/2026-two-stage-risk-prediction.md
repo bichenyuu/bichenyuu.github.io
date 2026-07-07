@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 
 authors: "Jill S. Hasler<sup>†</sup>, **Chenyu Bi<sup>†</sup>**, Chang Li, Ravi B. Parikh, Weidong Ma, Jinbo Chen"
-venue: "Under Review at *Biostatistics*, 2026"
+venue: "Under Review, 2026"
 
 description: >
   We develop a two-stage statistical framework for integrating high-dimensional
