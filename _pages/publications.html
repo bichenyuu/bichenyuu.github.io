@@ -16,8 +16,29 @@ author_profile: true
 
 <div class="publications-page">
 
-  {% for post in site.publications reversed %}
-    {% include publication-card.html post=post %}
-  {% endfor %}
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      {% assign title_shown = false %}
+
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+
+        {% unless title_shown %}
+          <h3 class="pub-section-title">{{ category[1].title }}</h3>
+          {% assign title_shown = true %}
+        {% endunless %}
+
+        {% include publication-card.html post=post %}
+
+      {% endfor %}
+    {% endfor %}
+
+  {% else %}
+    {% for post in site.publications reversed %}
+      {% include publication-card.html post=post %}
+    {% endfor %}
+  {% endif %}
 
 </div>
