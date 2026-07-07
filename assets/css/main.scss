@@ -37,3 +37,17 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+.page__content:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.page__inner-wrap {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.page {
+    padding-top: 0 !important;
+}
