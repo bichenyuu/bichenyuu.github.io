@@ -9,7 +9,7 @@ venue: "Under Review, 2026"
 description: >
   We.
 
-paper: "/files/Two_Stage_Modeling_HighD.pdf"
+paperurl:: "/files/Two_Stage_Modeling_HighD.pdf"
 slides: "/files/Two_Stage_Modeling_HighD.pdf"
 
 
