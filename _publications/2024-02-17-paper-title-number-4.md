@@ -1,13 +1,17 @@
 ---
-title: "Paper Title Number 4"
+title: "A Two-Stage Modeling Approach to Risk Prediction with High-Dimensional Two-Phase Data"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
----
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+authors: "Jill S. Hasler<sup>†</sup>, **Chenyu Bi<sup>†</sup>**, Changcheng Li, Ravi B. Parikh, Weidong Ma, Jinbo Chen"
+venue: "Under Review, 2026"
+
+description: >
+  A two-stage framework that integrates high-dimensional EHR data with partially observed external variables for risk prediction.
+
+slides: "/files/Slides_Two_Stage_Modeling_HighD.pdf"
+poster: "/files/JSM_Poster_Two_Stage_Modeling_HighD.pdf"
+
+
+image: "/images/publications/two-stage.png"
+---
