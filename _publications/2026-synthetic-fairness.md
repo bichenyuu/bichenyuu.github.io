@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 
 authors: "**Chenyu Bi**, Weidong Ma, Jinbo Chen"
-venue: "In submission, 2026"
+venue: "In submission, 2026+"
 
 description: >
   A fairness-oriented benchmarking framework that evaluates synthetic EHRs in terms of subgroup-gap preservation, downstream prediction fairness, and privacy-risk parity.
