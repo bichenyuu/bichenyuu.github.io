@@ -16,10 +16,8 @@ My research focuses on advancing statistical methods for machine learning and AI
 
 <div class="news-box" role="region" aria-labelledby="news-heading" tabindex="0">
   <ul>
-    <li><strong>August 4, 2026:</strong> Presented the poster
-      <strong>A Two-Stage Modeling Approach to Risk Prediction with High-Dimensional Two-Phase Data</strong>
-      at the Biometrics Section’s contributed poster session during the
-      <strong>2026 Joint Statistical Meetings (JSM)</strong> in Boston, MA.
+    <li><strong>[August 4, 2026]:</strong> Presented the poster "A Two-Stage Modeling Approach to Risk Prediction with High-Dimensional Two-Phase Data"
+      at the Biometrics Section during the 2026 JSM in Boston, MA.
 </li>
   </ul>
 </div>
