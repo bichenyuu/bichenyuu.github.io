@@ -1,9 +1,9 @@
 {% assign pub = include.post %}
 
 <article class="pub-card{% if pub.image %} pub-card--illustrated{% endif %}">
-  <div class="pub-content">
-    <h3 class="pub-title">{{ pub.title | escape }}</h3>
+  <h3 class="pub-title">{{ pub.title | escape }}</h3>
 
+  <div class="pub-content">
     {% if pub.authors %}
       <div class="pub-authors">
         {{ pub.authors | markdownify | remove: '<p>' | remove: '</p>' }}
