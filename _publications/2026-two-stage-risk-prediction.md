@@ -9,5 +9,7 @@ venue: "Under Revision, 2026+"
 description: >
   A two-stage framework that integrates high-dimensional EHR data with partially observed external variables for risk prediction.
 
-image: "/images/publications/two-stage.png"
+image: "/images/publications/two-stage-overview.webp"
+image_alt: "The model combines an EHR risk score with selectively observed patient surveys to predict 180-day mortality in oncology patients."
+code: "https://github.com/chenyubi-code/TwoPhaseHighD"
 ---

@@ -1,18 +1,8 @@
 {% assign pub = include.post %}
 
-<div class="pub-card">
-
-  {% if pub.image %}
-    <div class="pub-image">
-      <img src="{{ pub.image | relative_url }}" alt="{{ pub.title }}">
-    </div>
-  {% endif %}
-
+<article class="pub-card{% if pub.image %} pub-card--illustrated{% endif %}">
   <div class="pub-content">
-
-    <h3 class="pub-title">
-      {{ pub.title }}
-    </h3>
+    <h3 class="pub-title">{{ pub.title | escape }}</h3>
 
     {% if pub.authors %}
       <div class="pub-authors">
@@ -21,53 +11,54 @@
     {% endif %}
 
     {% if pub.venue %}
-      <div class="pub-venue">
-        {{ pub.venue | markdownify | remove: '<p>' | remove: '</p>' }}
-      </div>
+      <div class="pub-venue">{{ pub.venue | markdownify | remove: '<p>' | remove: '</p>' }}</div>
     {% elsif pub.venue_name %}
-      <div class="pub-venue">
-        {{ pub.venue_name }}
-      </div>
+      <div class="pub-venue">{{ pub.venue_name }}</div>
     {% endif %}
 
     {% if pub.description %}
-      <div class="pub-description">
-        {{ pub.description | markdownify }}
-      </div>
+      <div class="pub-description">{{ pub.description | markdownify }}</div>
     {% elsif pub.excerpt %}
-      <div class="pub-description">
-        {{ pub.excerpt }}
-      </div>
+      <div class="pub-description">{{ pub.excerpt }}</div>
     {% endif %}
 
-    <div class="pub-links">
+    {% if pub.paperurl or pub.preprint or pub.code or pub.project or pub.poster or pub.slides %}
+      <div class="pub-links">
 
-      {% if pub.paperurl %}
-        <a href="{{ pub.paperurl }}" target="_blank" rel="noopener">Paper</a>
-      {% endif %}
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}" target="_blank" rel="noopener">Paper</a>
+        {% endif %}
 
-      {% if pub.preprint %}
-        <a href="{{ pub.preprint }}" target="_blank" rel="noopener">Preprint</a>
-      {% endif %}
+        {% if pub.preprint %}
+          <a href="{{ pub.preprint }}" target="_blank" rel="noopener">Preprint</a>
+        {% endif %}
 
-      {% if pub.code %}
-        <a href="{{ pub.code }}" target="_blank" rel="noopener">Code</a>
-      {% endif %}
+        {% if pub.code %}
+          <a href="{{ pub.code }}" target="_blank" rel="noopener">GitHub code <span aria-hidden="true">↗</span></a>
+        {% endif %}
 
-      {% if pub.project %}
-        <a href="{{ pub.project }}" target="_blank" rel="noopener">Project</a>
-      {% endif %}
+        {% if pub.project %}
+          <a href="{{ pub.project }}" target="_blank" rel="noopener">Project</a>
+        {% endif %}
 
-      {% if pub.poster %}
-        <a href="{{ pub.poster }}" target="_blank" rel="noopener">Poster</a>
-      {% endif %}
+        {% if pub.poster %}
+          <a href="{{ pub.poster }}" target="_blank" rel="noopener">Poster</a>
+        {% endif %}
 
-      {% if pub.slides %}
-        <a href="{{ pub.slides }}" target="_blank" rel="noopener">Slides</a>
-      {% endif %}
+        {% if pub.slides %}
+          <a href="{{ pub.slides }}" target="_blank" rel="noopener">Slides</a>
+        {% endif %}
 
-    </div>
-
+      </div>
+    {% endif %}
   </div>
 
-</div>
+  {% if pub.image %}
+    <a class="pub-figure" href="{{ pub.image | relative_url }}"
+       aria-label="View full-size figure for {{ pub.title | escape }}">
+      <img src="{{ pub.image | relative_url }}"
+           alt="{{ pub.image_alt | default: pub.title | escape }}" decoding="async">
+      <span class="pub-figure-caption">View full-size figure <span aria-hidden="true">↗</span></span>
+    </a>
+  {% endif %}
+</article>
