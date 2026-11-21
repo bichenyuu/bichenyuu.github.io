@@ -2,7 +2,7 @@
 
 <article class="pub-card{% if pub.image %} pub-card--illustrated{% endif %}">
   <div class="pub-content">
-    <h3 class="pub-title">{{ pub.title | escape }}</h3>
+    <h3 class="pub-title">{{ pub.title | escape | newline_to_br }}</h3>
 
     {% if pub.authors %}
       <div class="pub-authors">

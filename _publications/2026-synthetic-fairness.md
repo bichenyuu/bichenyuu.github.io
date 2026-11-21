@@ -1,5 +1,7 @@
 ---
-title: "Do Synthetic Electronic Health Records Preserve Subgroup Differences? A Fairness-Oriented Benchmark of Generation Methods"
+title: |-
+  Do Synthetic Electronic Health Records Preserve Subgroup Differences?
+  A Fairness-Oriented Benchmark of Generation Methods
 collection: publications
 category: manuscripts
 
