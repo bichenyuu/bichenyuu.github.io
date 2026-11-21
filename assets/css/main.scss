@@ -39,6 +39,16 @@
 ;
 
 /* Publications page */
+body:has(.publications-page) {
+  /* The theme reserves space inline for its fixed footer. */
+  margin-bottom: 0 !important;
+
+  .page__footer {
+    position: relative;
+    bottom: auto;
+  }
+}
+
 .publications-page {
   --pub-ink: #23343b;
   --pub-muted: #52666b;
