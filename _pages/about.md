@@ -1,16 +1,15 @@
 ---
 permalink: /
-title: "Welcome to Chenyu Bi's Homepage"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
---- 
-## About Me
-I'm Chenyu Bi, a second-year M.S. student in Biostatistics at the University of Pennsylvania. I am fortunate to work closely with [Prof. Jinbo Chen](https://dbei.med.upenn.edu/staff/jinbo-chen-phd/) and pursue my master's thesis research under the supervision of [Prof. Hongzhe Li](https://dbei.med.upenn.edu/staff/hongzhe-li-lee-phd/). I am also involved in exciting research projects with [Prof. Molei Liu](https://moleibobliu.github.io/) at Peking University. Previously, I received my B.S. in Applied Statistics from the School of Statistics at Renmin University of China, where I conducted research under the guidance of [Prof. Hao Mei](http://stat.ruc.edu.cn/EN/DepartmentFaculty/Department_of_Biostatistics_and_Epidemiology/63f32e5c2a944b699e83f28e6751a275.htm).
+---
 
-## Research Interests
-My research focuses on developing statistical methods that make AI more trustworthy and data-efficient in biomedicine. My interests span statistical machine learning, generative AI, foundation models, and statistical inference.
+I am a second-year M.S. student in Biostatistics at the University of Pennsylvania, working closely with [Prof. Jinbo Chen](https://dbei.med.upenn.edu/staff/jinbo-chen-phd/) and [Prof. Hongzhe Li](https://dbei.med.upenn.edu/staff/hongzhe-li-lee-phd/). Previously, I received my B.S. in Applied Statistics from Renmin University of China.
+
+My research lies at the intersection of **statistical machine learning and biomedical AI**, with a particular focus on **generative AI for statistical inference**, **foundation models for data-efficient learning**, and **transfer learning**. My goal is to develop **statistically principled AI methods that are trustworthy and data-efficient**. I am particularly interested in leveraging generative models, pretrained representations, and knowledge transfer across related domains to advance prediction, inference, and sequential decision-making in biomedicine. My recent research spans **electronic health records (EHRs)** and **AI for protein engineering**.
 
 <h2 id="news-heading">News</h2>
 

@@ -110,8 +110,8 @@ html[data-theme="dark"] .publications-page {
 .pub-title {
   margin: 0 0 0.65rem;
   color: var(--pub-ink);
-  font-family: $serif;
-  font-size: 1.18rem;
+  font-family: $header-font-family;
+  font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: -0.016em;
@@ -120,14 +120,14 @@ html[data-theme="dark"] .publications-page {
 
 .pub-authors,
 .pub-description {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.5;
 }
 
 .pub-venue {
   margin: 0.35rem 0 0;
   color: var(--pub-muted);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-style: italic;
 }
 
@@ -159,7 +159,7 @@ html[data-theme="dark"] .publications-page {
 
 .publications-page .pub-links a {
   padding: 0.2rem 0;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 650;
 
   &:hover {
@@ -203,15 +203,17 @@ html[data-theme="dark"] .publications-page {
   gap: 0.4em;
   padding: 0.35rem 0.7rem;
   border-top: 1px solid var(--pub-rule);
-  font-size: 0.76rem;
+  font-size: 0.82rem;
   font-weight: 600;
 }
 
-/* Main page body text size */
+.page__title {
+  font-size: 1.4rem;
+}
 
 .page__content p {
-  font-size: 0.96em;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 /* Conference photo gallery */
