@@ -99,7 +99,7 @@ html[data-theme="dark"] .publications-page {
   }
 
   .pub-card--illustrated {
-    grid-template-columns: minmax(0, 0.94fr) minmax(0, 1.06fr);
+    grid-template-columns: minmax(0, 1.06fr) minmax(0, 0.94fr);
   }
 }
 
@@ -110,7 +110,7 @@ html[data-theme="dark"] .publications-page {
 .pub-title {
   margin: 0 0 0.65rem;
   color: var(--pub-ink);
-  font-family: $header-font-family;
+  font-family: $serif;
   font-size: 1.2rem;
   font-weight: 700;
   line-height: 1.22;
